@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+}
+
+nav{
+    align-items: center;
+    background-color: #FFD900;
+    
+}
+nav img{
+    width: 115px;
+    padding: 15px;
+    margin-left: 25px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.descricao{
+    background-color: #514988;
+    align-items: center;
+    text-align: center;
+
+}
+.descricao h1{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    margin-top: 20px;
+
+    color: #F3C61F;
+}
+.descricao p{
+    font-family: 'Verdana';
+    font-style: normal;
+
+    color: #FFFFFF;
+}
+
+.evento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.evento .timer{
+    display: flex;
+    flex-direction: row;
+   
+    font-family: 'Verdana';
+    font-style: normal;
+    align-items: center;
+    text-align: center;
+
+    color: #514988;
+    justify-content: center;
+}
+.evento h4{
+    font-family: 'Verdana';
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #E33881;
+
+    margin-bottom: 10px;
+}
+
+.relogio{
+    display: flex;
+    margin: 10px 0% 6px 5%;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
+footer h4{
+    font-family: 'Verdana';
+    font-style: normal;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px 3%;
+
+    color: #F3C61F
+}
+.secao{
+    width: 24%;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+
+    background: #514988;
+    border-radius: 20px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 0px;
+    padding: 25px 45px;
+    cursor: pointer;
+
+    color: #FFFFFF;
+}
+button:hover{
+    color: yellowgreen;
+}
+
+.card-highLight{
+    box-shadow: 5px 5px 5px 5px  blue;
+}
+
+.card-secected{
+    border: 5px solid green;
+}

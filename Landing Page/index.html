@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <nav>
+        <img src="/imagens/CCXP.svg" alt="">
+    </nav>
+
+    <main>
+        <div style="width: 50%;" class="descricao">
+            <h1>REVIVA O ÉPICO</h1>
+            <br>
+            <p><b>DE 01 A 04 DE DEZEMBRO</b></p>
+            <br>
+            <p>Você consegue sentir? É aquela sensação de <br> finalmente poder falar em voz alta: "estamos <br> em casa". Sim, em dezembro de 2022, <br> teremos a volta da CCXP física. Mas não será <br> qualquer CCXP, vai ser a maior de todos os <br> tempos. Prepare-se para visitar seus <br> universos favoritos, explorar o Artists' Valley, <br> se emocionar nos auditórios e encontrar <br> aventuras épicas a cada passo pelos nossos <br> corredores.</p>
+        </div>
+
+        <div style="width: 50%;" class="evento">
+            <div style="width: 100%;"  class="timer">
+                <div class="relogio">
+                    <h1 id="dia">00</h1>
+                    <h1>D</h1>
+                </div>
+                <div class="relogio">
+                    <h1 id="hora">00</h1>
+                    <h1>H</h1>
+                </div>
+                <div class="relogio">
+                    <h1 id="min">00</h1>
+                    <h1>M</h1>
+                </div>
+                <div class="relogio">
+                    <h1 id="seg">00</h1>
+                    <h1>S</h1>
+                    <br>
+                </div>
+            </div>
+
+                <h4>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h4>
+            
+            <div>
+                <video style="width: 99%;" src="https://dnc-ccxp22-lp.vercel.app/Arlequina.mp4"></video>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div style="width: 60%;">
+            <h4>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h4>
+            <div>
+                <img class="secao"  src="/imagens/imag1.svg" onclick="selectCard('#quinta')" onmouseover="highLightCard('quinta')" onmouseout="highLightCard('quinta')" id="quinta" alt="">
+                <img class="secao"  src="/imagens/imag2.svg" onclick="selectCard('#sexta')" onmouseover="highLightCard('sexta')" onmouseout="highLightCard('sexta')" id="sexta" alt="">
+                <img class="secao"  src="/imagens/imag3.svg" onclick="selectCard('#sabado')" onmouseover="highLightCard('sabado')" onmouseout="highLightCard('sabado')" id="sabado" alt="">
+                <img class="secao"  src="/imagens/imag4.svg" onclick="selectCard('#domingo')" onmouseover="highLightCard('domingo')" onmouseout="highLightCard('domingo')" id="domingo" alt="">
+            </div>
+        </div>
+        <div class="botao" style="width: 40%;">
+            <button onclick="mostrarCords">GARANTA O SEU!</button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
